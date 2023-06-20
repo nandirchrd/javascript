@@ -1,0 +1,12 @@
+- Apa itu Javascript?
+Javascript adalah sebuah bahasa pemograman yang dibuat oleh Brenda Eich.
+- Dimana Javascript bisa dijalankan?
+Di browser menggunakan JavascriptEngine:
+Firefox: Spider Monkey
+Chrome: V8
+- Apa itu NodeJS?
+NodeJS adalah sebuah runtime untuk menjalankan javascript di system yang dibuat oleh Ryan Dahl.
+Jadi NodeJs itu memakai pemograman C++ dan mengambil engine V8 untuk bisa menjalankan Javascript di system secara langsung.
+- Perbedaan Javascript dan EcmaScript?
+Javascript adalah sebuah bahasa pemograman sedangkan EcmaScript adalah untuk menstandarisasi versi Javascript itu sendiri. 
+Misal: ES6, ES7, ES8. dan ada fitur tambahan disetiap versinya.
