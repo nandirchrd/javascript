@@ -1,0 +1,26 @@
+- Factory function
+function createCircle(radius){
+    return {
+        radius,
+        drawCircle(){
+            console.log("drawCircle");
+        }
+    }
+}
+
+- Constructor function
+function Circle(radius){
+    this.radius = radius;
+    this.drawCircle = function(){
+        console.log("drawCircle)
+    }
+}
+let circle = new Circle(2);
+
+- Dynamic nature of objects
+delete circle.radius;
+
+-
+object.keys()
+object.entries();
+Object.assign()
