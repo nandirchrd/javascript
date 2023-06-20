@@ -1,0 +1,13 @@
+Apa itu operator?
+Operator adalah sebuah simbol yang digunakan untuk melakukan tindakan operasi perhitungan atau logika.
+Jenis Operator?
+Aritmatik, Assignment, Comparison, Logical, Bitwise.
+
+Aritmatik: + - * / % ** ++ --
+Assignment: += -= *= %= *=
+Comparison: > >= < <= === !==
+Ternary: cond ? true : false;
+Logical: cond && true, cond1 || cond2;
+
+Falsy: undefined, null, 0, false, '', Nan
+Operator Presedence: ku ka ba ta ku: kurung, kali, bagi, tambah, kurang.
