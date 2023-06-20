@@ -1,0 +1,17 @@
+- Apa itu Variabel?
+Variable adalah sebuah wadah untuk menyimpan nilai sementara di memori komputer.
+- Apa itu Constant?
+Constant adalah untuk mendeklarasikan sebuah variabel yang nilainya tidak bisa diubah.
+- Primitive Types?
+String, Number, Boolean, undefined, null.
+- Reference Types?
+Object, Array, Function.
+- Dynamic language vs Static Language?
+Dynamic language adalah bahasa pemograman yang memperbolehkan untuk mengubah tipe variabel.
+Sedangkan static, tipe varibelnya tidak bisa diubah.
+- Apa itu Object?
+Object adalah sebuah variabel yang memiliki property dan method.
+- Apa itu Array?
+Array adalah sebuah variabel untuk menyimpan list data.
+- Apa itu Function?
+Function adalah sebuah statement untuk menjalankan tugas atau mengkalkulasi nilai.
