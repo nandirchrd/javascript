@@ -1,0 +1,34 @@
+- Adding element
+arr.push()
+arr.unshift()
+arr.splice()
+- Finding element
+arr.indexOf(1, 2)
+arr.lastIndexOf(2)
+arr.includes(2)
+- Finding element (refference type)
+arr.find((el)=>el.name==a)
+arr.findIndex((el)=>el.name==a)
+- Removing element
+arr.pop()
+arr.shift()
+arr.splice()
+- Combining and slicing array
+arr.concat(arr)
+arr.slice()
+- Joining array
+arr.join()
+arr.split()
+- Sorting array
+arr.sort()
+arr.reverse()
+arr.sort((a,b)=>a > b ? -1 : 1)
+- Testing element
+arr.every(a=>a>2)
+arr.some(a=>a>2)
+- Filtering array
+arr.filter(a=>a>2)
+- Mapping
+arr.map( a => a % 2 === 0 ? 'odd' : 'even')
+- Reducing an array
+arr.reduce( (a, c) => a + c, 0)
