@@ -1,0 +1,5 @@
+- Function Declaration vs Function Expression
+Fungsi deklarasi adalah fungsi yang dibuat langsung menggunakan function.
+Fungsi Expression adalah fungsi yang dibuat dengan deklarasi variabel.
+- Hoisting 
+Hoisting adalah proses memindahkan fungsi deklarasi keatas program secara otomatis oleh javascrip engine. Jadi si fungsi deklarasi itu akan di index lebih awal oleh mesin.
