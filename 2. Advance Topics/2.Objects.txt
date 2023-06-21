@@ -1,0 +1,20 @@
+- Factory vs Constructor function
+ function createCircle(name){
+    return {name}
+ }
+ function Circle(name){
+    this.name = name
+ }
+
+ - Function juga adalah sebuah objek
+ Circle.call({}, arg);
+ Circle.apply({}, [arg])
+
+ - define getter setter in object
+ function Person(nameInput){
+    let name = nameInput,
+    Object.defineProperty(this, 'name', {
+        get: () => name,
+        set: (value) => name = value
+    })
+ }
