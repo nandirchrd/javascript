@@ -1,0 +1,12 @@
+1. Apa itu OOP?
+- OOP adalah sebuah pardigma atau gaya pemograman yang berbasis objek.
+- C#, Java, Ruby, Python, Javascript
+2. 4 Pilar OOP
+- Encapsulation
+Pengikatan data atau metode yang di satukan menjadi satu unit data.
+- Abstraction
+Menyembunyikan proses rumit yang terjadi didalam sebuah fungsionalitas.
+- Inheritance
+Inheritance adalah pewarisan data dari suatu class.
+- Polymorphism
+Sebuah method yang berperilaku berbeda dari satu ke yang lainnya.
