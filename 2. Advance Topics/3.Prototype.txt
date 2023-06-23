@@ -1,0 +1,5 @@
+Apa itu Prototype?
+Prototype adalah sebuah data yang dimiliki oleh parent object yang dapat diakses oleh turunannya.
+
+Circle.prototype = Object.create(Shape.prototype)
+Circle.prototype.constructor = Circle
