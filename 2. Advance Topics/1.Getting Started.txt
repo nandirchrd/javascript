@@ -3,10 +3,80 @@
 - C#, Java, Ruby, Python, Javascript
 2. 4 Pilar OOP
 - Encapsulation
-Pengikatan data atau metode yang di satukan menjadi satu unit data.
+Pengikatan atau pengemasan data dan metode yang di satukan menjadi satu unit data.
+Contoh: 
+class Human{
+    constructor(){
+        this.eyeColor = 'red';
+        this.skinColor = 'brown'
+    }
+    walk(){
+        console.log('Walk);
+    }
+}
+Jadi kita mengemas seluruh data yang dibutuhkan dalam sebuah unit saja.
+
 - Abstraction
 Menyembunyikan proses rumit yang terjadi didalam sebuah fungsionalitas.
+Contoh:
+class Human{
+    constructor(){
+        this._healthScore = 100;
+        this._heartColor = 'black';
+        this._breathInMinute = 100;
+    }
+
+    checkHealth(){
+        if(this._breathInMinute > 50){
+            // Artinya kamu sesak dalam bernafas
+            this._healthScore = this._healthScore - 20;
+        }
+        if(this._heartColor == 'black'){
+            // Artinya jantung kamu tidak sehat
+            this._healthScore = this._healthScore - 20;
+        }
+        // Kita mendapatkan hasilnya tanpa perlu tahu proses rumit yang terjadi 
+        dibelakang layar. Itu dinamakan Abstraction.
+        return this._healthScore;
+    }
+}
+
 - Inheritance
 Inheritance adalah pewarisan data dari suatu class.
+Contoh: 
+class Parent{
+    constructor(){
+        this.isHaveGreenEye = true;
+        this.skin = 'black';
+    }
+}
+class Child extends Parent{
+    constructor(){
+    }
+}
+class Child akan terwarisi oleh class Parent dengan memiliki warna kulit dan mata yang sama.
+
 - Polymorphism
 Sebuah method yang berperilaku berbeda dari satu ke yang lainnya.
+Contoh:
+class Hewan {
+  constructor(nama) {
+    this.nama = nama;
+  }
+
+  bersuara() {
+    return "Hewan ini mengeluarkan suara.";
+  }
+}
+
+class Kucing extends Hewan {
+  bersuara() {
+    return `${this.nama} mengeluarkan suara Meow!`;
+  }
+}
+
+class Anjing extends Hewan {
+  bersuara() {
+    return `${this.nama} mengeluarkan suara Woof!`;
+  }
+}
