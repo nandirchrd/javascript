@@ -2,6 +2,10 @@
 arr.push()
 arr.unshift()
 arr.splice()
+- Removing element
+arr.pop()
+arr.shift()
+arr.splice()
 - Finding element
 arr.indexOf(1, 2)
 arr.lastIndexOf(2)
@@ -9,10 +13,6 @@ arr.includes(2)
 - Finding element (refference type)
 arr.find((el)=>el.name==a)
 arr.findIndex((el)=>el.name==a)
-- Removing element
-arr.pop()
-arr.shift()
-arr.splice()
 - Combining and slicing array
 arr.concat(arr)
 arr.slice()
