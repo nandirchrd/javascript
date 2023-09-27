@@ -1,0 +1,7 @@
+// CommonJS (NodeJS)
+module.exports = Circle;
+const Circle = require('./class/Circle.js')
+
+// ES6 (Browser)
+export default Circle;
+import Circle from './class/Circle,js';
