@@ -1,0 +1,50 @@
+Hoisting:
+sayHello() // Berjalan karena hoisting
+sayGood() // Tidak
+// Function Declaration
+function sayHello(){}
+// Function Expression
+const sayGood = function(){};
+Tidak berfungsi untuk class keyword
+
+Static method:
+class Circle{
+    static parse(){
+        console.log('parsing')
+    }
+}
+Circle.parse();
+
+Private Member:
+const privateDua = Symbol();
+class Circle{
+    constructor(){
+        this._privateSatu = 1;
+        this_[privateDua] = 2;
+    }
+}
+
+Getter setter:
+class Circle{
+    constructor(){
+        this._privateSatu = 1;
+    }
+    get privateSatu(){
+        return this._privateSatu;
+    }
+    set privateSatu(value){
+        if(typeof value == string) this._privateSatu = value;
+    }
+}
+
+Inheritance:
+
+class Test extends Circle{
+    constructor(t){
+        super(t)
+        this._privateSatu = 1;
+    }
+    draw(){
+        super.move()
+    }
+}
